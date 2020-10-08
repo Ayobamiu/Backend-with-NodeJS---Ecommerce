@@ -1,0 +1,32 @@
+{
+  "name": "ecommerce-with-node",
+  "version": "1.0.0",
+  "description": "An ecommerce Backend API with NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env-cmd ./config/dev.env nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ayobami Usman",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.6",
+    "aws-sdk": "^2.766.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "flutterwave-node": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.7",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "request": "^2.88.2",
+    "sharp": "^0.26.1",
+    "validator": "^13.1.17"
+  },
+  "devDependencies": {
+    "env-cmd": "^8.0.2",
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4"
+  }
+}
